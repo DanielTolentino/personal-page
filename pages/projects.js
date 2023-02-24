@@ -42,11 +42,25 @@ export default function Projects() {
             alt='Site para Barbearia'
             />
             <Card 
-            title='Project 2    '
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ahufahfhaufhuahufahufasfasfafasfasfsfafh' 
-            url='https://nextjs.org'
-            image='https://images.unsplash.com/photo-1677155875750-9eb42b39f4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-            alt='project 1'
+            title='Site para PetShop'
+            description='Projeto desenvolvido na maratona codar.me. Feito com HTML, CSS e JavaScript.' 
+            url='https://codar-me-maratona-starter-veterinaria.vercel.app/'
+            image='/pet-store.png'
+            alt='Site para PetShop'
+            />
+            <Card 
+            title='MoviesLibrary'
+            description='Site para buscar informações de filmes usando a API do The Movie Database. Feito com React. Tutorial do Youtube' 
+            url='https://movies-library-mocha.vercel.app/'
+            image='/movies.png'
+            alt='Site para buscar filmes'
+            />
+            <Card 
+            title='CoronaVirus Tracker'
+            description='Dashboard criada usando GoogleSites com embbeds de estatísticas do Covid-19 e informações/inforgráficos sobre o vírus.' 
+            url='https://sites.google.com/view/corona-no-brasil/in%C3%ADcio'
+            image='/corona.png'
+            alt='CoronaVirus Tracker'
             />
         </div>
         
