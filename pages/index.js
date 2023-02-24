@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
+import Card from '../components/ProjectCard';
 import NavBar from '../components/NavBar';
 
 export default function Home() {
@@ -31,10 +32,18 @@ export default function Home() {
                <img className={styles.icons} src='/github-svgrepo-com.svg' /> GitHub
               </a>
             </div>
-            <h2 className={styles.description}>Sou apaixonado por tecnologia, Linux e o mundo Open Source!</h2>
+            <h2 className={styles.description}>Gosto de tecnologia, Linux e o mundo Open Source!</h2>
           </div>
         </div>
       </div>
+      <Card 
+            title='Hub'
+            description='Hub com links para meus projetos, acesso rápido à ferramentas e documentação e meus servidores.
+            Feito com Astro e TailwindCSS.' 
+            url='https://github.com/DanielTolentino/Hub'
+            image='/hub.png'
+            alt='Hub pessoal'
+            />
        
       </main>
 
