@@ -11,26 +11,27 @@ export default function Projects() {
             <NavBar />
         <div id='grid'>
             <Card 
-            title='Project 1'
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ahufahfhaufhuahufahufasfasfafasfasfsfafh' 
-            url='https://nextjs.org'
-            image='https://images.unsplash.com/photo-1677155875750-9eb42b39f4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+            title='Hub'
+            description='Hub com links para meus projetos, acesso rápido à ferramentas e documentação e meus servidores.
+            Feito com Astro e TailwindCSS.' 
+            url='https://github.com/DanielTolentino/Hub'
+            image='/hub.png'
+            alt='Hub pessoal'
+            />
+
+            <Card 
+            title='Primeiro Portfólio'
+            description='Página criada como projeto final da imersão Alura. Feito com HTML, CSS e JavaScript e depois portado para next.js por curiosidade e para aprender mais sobre o framework e utilizar as otmiizações.' 
+            url='https://portfolio-danieltolentino.vercel.app/'
+            image='/old-portfolio.png'
             alt='project 1'
             />
 
             <Card 
-            title='Project 2    '
+            title='Conversor de Moedas'
             description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ahufahfhaufhuahufahufasfasfafasfasfsfafh' 
-            url='https://nextjs.org'
-            image='https://images.unsplash.com/photo-1677155875750-9eb42b39f4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-            alt='project 1'
-            />
-
-            <Card 
-            title='Project 2    '
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ahufahfhaufhuahufahufasfasfafasfasfsfafh' 
-            url='https://nextjs.org'
-            image='https://images.unsplash.com/photo-1677155875750-9eb42b39f4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+            url='https://conversor-de-dolar-tolentino.vercel.app/'
+            image='/conversor.png'
             alt='project 1'
             />
             <Card 
