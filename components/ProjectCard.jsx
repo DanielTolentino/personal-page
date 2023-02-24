@@ -13,7 +13,15 @@ export default function Card(props) {
               <h3 className={styles.h3}>{props.title}</h3>
               <p className={styles.p}>{props.description}</p>
               <div className={styles.img_container}>
-              <Image className={styles.img} src={props.image} alt={props.alt}  width={100} height={100} />
+              <Image 
+               className={styles.img} 
+               src={props.image} 
+               alt={props.alt}  
+               width={100} 
+               height={100} 
+               quality="100"
+               blurDataURL="data:..."
+               placeholder="blur"/>
               </div>
             </div>
             </Link>
