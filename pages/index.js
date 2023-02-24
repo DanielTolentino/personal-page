@@ -20,7 +20,7 @@ export default function Home() {
         <NavBar/>
         <div>          
           <div>
-            <h1 className={styles.title}>Olá <span class="emoji"> 👋 </span>, meu nome é Daniel Tolentino </h1>
+            <h1 className={styles.title}>Olá <span className="emoji"> 👋 </span>, meu nome é Daniel Tolentino </h1>
             <br />
             <div className={styles.links_row}>
               <div className={styles.link_card}>
