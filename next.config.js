@@ -6,5 +6,8 @@ module.exports = {
           hostname: 'images.unsplash.com',
         },
       ],
+      loader: 'default',
+      formats: ['image/webp'],
+      unoptimized: true,
     },
   }
