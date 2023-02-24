@@ -73,6 +73,19 @@ export default function About() {
         * {
           box-sizing: border-box;
         }
+        @media (prefers-color-scheme: dark) {
+          body {
+            filter: invert(100%);
+            background-color: rgb(29, 32, 31) !important;
+          }
+          img, 
+          .icons,
+          .emoji,
+          iframe /* for recaptcha */ {
+            filter: invert(100%) !important;
+          }
+        }
+      }
       `}</style>
         </div>
     )

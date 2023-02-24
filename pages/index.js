@@ -20,9 +20,8 @@ export default function Home() {
         <NavBar/>
         <div>          
           <div>
-            <h1 className={styles.title}>Olá 👋, meu nome é Daniel Tolentino </h1>
+            <h1 className={styles.title}>Olá <span class="emoji"> 👋 </span>, meu nome é Daniel Tolentino </h1>
             <br />
-            
             <div className={styles.links_row}>
               <div className={styles.link_card}>
                 <a  className={styles.link}                href="https://github.com/DanielTolentino"
@@ -45,7 +44,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-       
       </main>
 
       <style jsx>{`
@@ -104,6 +102,18 @@ export default function Home() {
         }
         * {
           box-sizing: border-box;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            filter: invert(100%);
+            background-color: rgb(29, 32, 31) !important;
+          }
+          img, 
+          .icons,
+          .emoji,
+          iframe /* for recaptcha */ {
+            filter: invert(100%) !important;
+          }
         }
       `}</style>
     </div>
