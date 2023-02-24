@@ -17,14 +17,22 @@ export default function Home() {
       <img src="/foto_de_perfil.webp" alt="profile pic" className={styles.pfp} />
       <div>
         <NavBar/>
-        <div>
-         
-          
-          
-          <p>
-          Olá 👋, meu nome é Daniel Tolentino <br></br>
-          Sou apaixonado por tecnologia, Linux e o mundo Open Source!
-          </p>
+        <div>          
+          <div>
+            <h1 className={styles.title}>Olá 👋, meu nome é Daniel Tolentino </h1>
+            <br />
+            
+            <div className={styles.links_row}>
+              <a
+              href="https://github.com/DanielTolentino"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+               <img className={styles.icons} src='/github-svgrepo-com.svg' /> GitHub
+              </a>
+            </div>
+            <h2 className={styles.description}>Sou apaixonado por tecnologia, Linux e o mundo Open Source!</h2>
+          </div>
         </div>
       </div>
        
@@ -49,6 +57,15 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+        }
+        a{
+          flex: 1;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: inherit;
         }
         footer {
           width: 100%;
