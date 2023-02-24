@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link'
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 import NavBar from '../components/NavBar';
@@ -13,12 +14,15 @@ export default function Home() {
       </Head>
       
       <main>
+      <img src="/foto_de_perfil.webp" alt="profile pic" className={styles.pfp} />
       <div>
         <NavBar/>
         <div>
-          <img src='../resources/imgs/foto_de_perfil.webp'></img>
+         
+          
+          
           <p>
-          Olá 👋, I'm Daniel Tolentino
+          Olá 👋, meu nome é Daniel Tolentino <br></br>
           Sou apaixonado por tecnologia, Linux e o mundo Open Source!
           </p>
         </div>
