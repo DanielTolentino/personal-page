@@ -64,3 +64,16 @@
     opacity: 0.5;
     cursor: pointer;
 }
+
+@media (prefers-color-scheme: dark) {
+    .card,
+    .svg_icon          
+    {
+      filter: invert(100%);
+    }
+    .img,
+    .icons,
+    .emoji{
+        filter: invert(100%);
+    }
+  }
