@@ -15,51 +15,13 @@ export default function Home() {
       <main>
       <div>
         <NavBar/>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-      </div>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      <div>
-        <p>
-          {/* make a lorem ipsum */}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
-          tincidunt nisl. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-
-        </p>
+        <div>
+          <img src='../resources/imgs/foto_de_perfil.webp'></img>
+          <p>
+          Olá 👋, I'm Daniel Tolentino
+          Sou apaixonado por tecnologia, Linux e o mundo Open Source!
+          </p>
+        </div>
       </div>
        
       </main>
