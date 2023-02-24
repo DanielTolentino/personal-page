@@ -1,0 +1,21 @@
+@media (prefers-color-scheme: dark) {
+    body,
+    h1
+    {
+        color: #fff;
+        background-color: #333;
+      }
+      .svg_icon, 
+    
+    .Home_link__mt0ji,
+      .icons,
+      .Home_link_card__FkpPR,
+      .mr-2,
+      iframe /* for recaptcha */ {
+        filter: invert(100%) !important;
+      }
+      .Home_link_card__FkpPR:hover{
+        filter: invert(100%) !important;
+      }
+
+  }
