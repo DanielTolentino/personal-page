@@ -110,6 +110,7 @@ export default function Projects() {
         gap: 25px;
 
     }
+    
   `}</style>
 
   <style jsx global>{`
@@ -124,18 +125,7 @@ export default function Projects() {
     * {
       box-sizing: border-box;
     }
-    @media (prefers-color-scheme: dark) {
-      body {
-        filter: invert(100%);
-        background-color: rgb(29, 32, 31) !important;
-      }
-      img, 
-      .icons,
-      .emoji,
-      iframe /* for recaptcha */ {
-        filter: invert(100%) !important;
-      }
-    }
+  
   `}</style>
 </div>
     )
