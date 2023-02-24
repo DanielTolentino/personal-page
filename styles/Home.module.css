@@ -112,6 +112,7 @@
 .links_row{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -120,4 +121,28 @@
   gap: 15px;
   text-decoration: none;
 
+}
+.link_card {
+  max-height: 50;
+  border: #c2bdbd;
+  border-width: 1px;
+  border-style: none;
+  border-radius: 6px;
+  padding: 15px;
+  background-color: #f1f1f1;
+
+}
+
+.link_card:hover {
+  cursor: pointer;
+  background-color: #cccccc;
+
+}
+
+.link{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  justify-content: space-between;
+  gap: 10px;
+  
 }
