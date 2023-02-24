@@ -12,9 +12,9 @@ export default function Card(props) {
             <div className={styles.card}>
               <h3 className={styles.h3}>{props.title}</h3>
               <p className={styles.p}>{props.description}</p>
-              
-              <Image className={styles.img} src={props.image} alt={props.alt}  width={400} height={400} />
-            
+              <div className={styles.img_container}>
+              <Image className={styles.img} src={props.image} alt={props.alt}  width={100} height={100} />
+              </div>
             </div>
             </Link>
         </div>
