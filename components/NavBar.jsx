@@ -10,7 +10,6 @@ export default function NavBar() {
         {/* // create props for the NavBar component for navigating to different pages */}
         <Link className={styles.link} href="https://blog.danieltolentino.omg.lol"><h5 className={styles.title}>Blog</h5></Link>
         <Link className={styles.link} href="/projects"><h5 className={styles.title}>Projects</h5></Link>
-        <h5 className={styles.title}>Contact</h5>
         <Link className={styles.link} href="/about"><h5 className={styles.title}>About</h5></Link>
         </div>
     </div>
