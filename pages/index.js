@@ -59,7 +59,6 @@ export default function Home() {
           align-items: center;
         }
         a{
-          flex: 1;
           display: flex;
           flex-direction: row;
           justify-content: center;
