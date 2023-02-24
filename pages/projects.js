@@ -29,17 +29,17 @@ export default function Projects() {
 
             <Card 
             title='Conversor de Moedas'
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ahufahfhaufhuahufahufasfasfafasfasfsfafh' 
+            description='Converte Dólar, Euro e Bitcoin em Reais. Usa uma API para atualizar a cotação em tempo real.' 
             url='https://conversor-de-dolar-tolentino.vercel.app/'
             image='/conversor.png'
-            alt='project 1'
+            alt='Conversor de moeda'
             />
             <Card 
-            title='Project 2    '
-            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ahufahfhaufhuahufahufasfasfafasfasfsfafh' 
-            url='https://nextjs.org'
-            image='https://images.unsplash.com/photo-1677155875750-9eb42b39f4e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-            alt='project 1'
+            title='Site para Barbearia'
+            description='Projeto desenvolvido na maratona codar.me. Feito com HTML, CSS e JavaScript.' 
+            url='https://codar-me-maratona-starter-barbearia.vercel.app/'
+            image='/barbearia.png'
+            alt='Site para Barbearia'
             />
             <Card 
             title='Project 2    '
@@ -92,7 +92,9 @@ export default function Projects() {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        padding: 50px;
+        gap: 25px;
+
     }
   `}</style>
 
