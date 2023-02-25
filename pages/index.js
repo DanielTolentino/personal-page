@@ -2,12 +2,18 @@ import Head from 'next/head';
 import Link from 'next/link'
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import {useTranslations} from 'next-intl';
 
 import Card from '../components/ProjectCard';
 import NavBar from '../components/NavBar';
 
+
+
 export default function Home() {
+  const t = useTranslations('About');
+
   return (
+    
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -20,7 +26,7 @@ export default function Home() {
         <NavBar/>
         <div>          
           <div>
-            <h1 className={styles.title}>Olá <span className="emoji"> 👋 </span>, meu nome é Daniel Tolentino </h1>
+            <h1 className={styles.title}>{t('hello')}</h1>
             <br />
             <div className={styles.links_row}>
               <div className={styles.link_card}>
@@ -47,7 +53,8 @@ export default function Home() {
                 </a>
                 </div>
             </div>
-            <h2 className={styles.description}>Gosto de tecnologia, Linux e o mundo Open Source!</h2>
+            <h1></h1>
+            <h2 className={styles.description}>{t('about')}</h2>
           </div>
         </div>
       </div>
@@ -113,4 +120,12 @@ export default function Home() {
       `}</style>
     </div>
   )
+}
+
+export async function getStaticProps({locale}) {
+  return {
+    props: {
+      messages: (await import(`../lang/${locale}.json`)).default
+    }
+  };
 }
