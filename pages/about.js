@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css';
 
 import NavBar from '../components/NavBar';
 
+import {NextIntlProvider} from 'next-intl';
+
 export default function About() {
     return (
         <div className='navbar'>
@@ -77,4 +79,12 @@ export default function About() {
       `}</style>
         </div>
     )
+}
+
+export async function getStaticProps({locale}) {
+  return {
+    props: {
+      messages: (await import(`../lang/${locale}.json`)).default
+    }
+  };
 }

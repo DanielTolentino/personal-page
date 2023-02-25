@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import {NextIntlProvider} from 'next-intl';
 
 import NavBar from '../components/NavBar';
 import Card from '../components/ProjectCard';
+
 
 export default function Projects() {
     return (
@@ -129,4 +131,12 @@ export default function Projects() {
   `}</style>
 </div>
     )
+}
+
+export async function getStaticProps({locale}) {
+  return {
+    props: {
+      messages: (await import(`../lang/${locale}.json`)).default
+    }
+  };
 }
