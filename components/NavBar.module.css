@@ -29,23 +29,19 @@
     font-weight: 500;
     text-decoration: none;
     transition: transform 0.2s ease-in-out;
-    margin: 15px;
+    margin: 10px 15px 10px 15px;
 }
-.title:hover {
-    background-color: black;
+
+.title:visited {
+    color: #000;
+}
+.active{
+    background-color:gainsboro;
     border-radius: 3px;
-    border-width: 12px;
     opacity: 0.25;
-    color: gainsboro;
-    cursor: pointer;
-    /* increase border padding */
-    padding: 10px;
-    /* increase border width */
-    border-width: 10px;
-    transition: transform 0.2s ease-in-out;
-    transform: scale(1.05);
-   
-}
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}   
 
 .textrow{
     display: flex;
@@ -66,6 +62,18 @@
 .a {
     text-decoration: none;
     color: #000;
+    transition: transform 0.2s ease-in-out;
+}
+.a:hover {
+    z-index: 1;
+    background-color: black;
+    border-radius: 3px;
+    border-width: 12px;
+    color: gainsboro;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.05);
+   
 }
 .link:visited {
     color: #000;
