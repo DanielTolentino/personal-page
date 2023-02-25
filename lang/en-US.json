@@ -1,0 +1,14 @@
+{
+    "About": {
+      "hello": "Hello 👋 , my name is Daniel Tolentino",
+      "about": "I like technology, Linux and the Open Source world!"
+    },
+    "NavBar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects"
+      },
+    "PageLayout": {
+        "pageTitle": "next-intl"
+      }
+  }
