@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./NavBar.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useTranslations } from "next-intl";
 
 import { useTranslations } from "next-intl";
 
