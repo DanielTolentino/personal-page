@@ -12,7 +12,7 @@
   height: 350px;
   transition: transform 0.2s ease-in-out;
 }
-.card:hover {
+.card:hover, .img:hover {
   transition: transform 0.2s ease-in-out;
   border-style: solid;
   border-color: #e5e7eb;
