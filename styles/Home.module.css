@@ -140,6 +140,9 @@
   background-color: #cccccc;
 }
 @media (prefers-color-scheme: dark) {
+  .link_card {
+    background-color: #424242;
+  }
   .link_card:hover {
     cursor: pointer;
     background-color: #424242;
