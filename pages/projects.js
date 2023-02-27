@@ -7,6 +7,10 @@ import Card from '../components/ProjectCard';
 export default function Projects() {
     return (
      <div>   
+       <Head>
+        <title>Projetos</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <main>
             <NavBar />
         <div id='grid'>
