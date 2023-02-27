@@ -1,5 +1,5 @@
-import { Analytics } from '@vercel/analytics/react';
-import '../styles.css'
+import { Analytics } from "@vercel/analytics/react";
+import "../styles.css";
 
 function MyApp({ Component, pageProps }) {
   return (
