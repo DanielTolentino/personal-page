@@ -13,7 +13,6 @@
   transition: transform 0.2s ease-in-out;
 }
 .card:hover {
-  /* make hover animate with a smooth zoom */
   transition: transform 0.2s ease-in-out;
   border-style: solid;
   border-color: #e5e7eb;
@@ -43,16 +42,11 @@
 }
 
 .img_container {
-  /* set the width of the image container */
   width: 100%;
-  /* set the height of the image container */
   height: 400px;
-  /* set the border-radius of the image container */
-  /* set the overflow of the image container */
   overflow: hidden;
 }
 .img {
-  /* image dipslay cover */
   object-fit: cover;
   object-position: center;
   width: 100%;
