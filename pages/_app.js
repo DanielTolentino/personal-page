@@ -1,7 +1,7 @@
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 import { useRouter } from "next/router";
-import {NextIntlProvider} from 'next-intl';
-import '../styles.css'
+import { NextIntlProvider } from "next-intl";
+import "../styles.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -13,11 +13,11 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-export async function getStaticProps({locale}) {
+export async function getStaticProps({ locale }) {
   return {
     props: {
-      messages: (await import(`../lang/${locale}.json`)).default
-    }
+      messages: (await import(`../lang/${locale}.json`)).default,
+    },
   };
 }
 export default MyApp;
