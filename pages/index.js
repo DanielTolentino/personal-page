@@ -7,27 +7,36 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <title>Portfólio - Daniel Tolentino</title>
+        <meta
+          name="description"
+          content="Portfólio de Daniel Tolentino, desenvolvedor web"
+        />
 
-        
-  
-  <title>Portfólio - Daniel Tolentino</title>
-  <meta name="description" content="Portfólio de Daniel Tolentino, desenvolvedor web" />
+        <meta property="og:url" content="https://danieltolentino.tech/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Portfólio - Daniel Tolentino" />
+        <meta
+          property="og:description"
+          content="Portfólio de Daniel Tolentino, desenvolvedor web"
+        />
+        <meta
+          property="og:image"
+          content="https://danieltolentino.tec/og-image.png"
+        />
 
- 
-  <meta property="og:url" content="https://danieltolentino.tech/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Portfólio - Daniel Tolentino" />
-  <meta property="og:description" content="Portfólio de Daniel Tolentino, desenvolvedor web">
-  <meta property="og:image" content="https://danieltolentino.tec/og-image.png" />
-
-  
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="danieltolentino.tech" />
-  <meta property="twitter:url" content="https://danieltolentino.tech/" />
-  <meta name="twitter:title" content="Portfólio - Daniel Tolentino" />
-  <meta name="twitter:description" content="Portfólio de Daniel Tolentino, desenvolvedor web" />
-  <meta name="twitter:image" content="https://danieltolentino.tec/og-image.png"/>
-
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="danieltolentino.tech" />
+        <meta property="twitter:url" content="https://danieltolentino.tech/" />
+        <meta name="twitter:title" content="Portfólio - Daniel Tolentino" />
+        <meta
+          name="twitter:description"
+          content="Portfólio de Daniel Tolentino, desenvolvedor web"
+        />
+        <meta
+          name="twitter:image"
+          content="https://danieltolentino.tec/og-image.png"
+        />
 
         <meta property="og:image:width" content="1200" />
 
