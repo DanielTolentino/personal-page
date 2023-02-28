@@ -99,7 +99,10 @@ export default function Home() {
                 </a>
               </div>
               <h2 className={styles.description}>
-                Gosto de tecnologia, Linux e o mundo Open Source!
+                Amo tecnologia, Linux e o mundo Open Source!
+                <br></br>
+                Desenvolvedor Front-End, estudante de Sistemas para Internet e
+                pai do Luke 🐱
               </h2>
             </div>
             <h1></h1>
