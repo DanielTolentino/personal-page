@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Portfólio - Daniel Tolentino</title>
+        <title>Daniel Tolentino</title>
         <meta
           name="description"
           content="Portfólio de Daniel Tolentino, desenvolvedor web"
