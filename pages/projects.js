@@ -18,7 +18,7 @@ export default function Projects() {
             description="Hub com links para meus projetos, acesso rápido à ferramentas e documentação e meus servidores.
             Feito com Astro e TailwindCSS."
             url="https://github.com/DanielTolentino/Hub"
-            image="/hub.png"
+            image="/hub.webp"
             alt="Hub pessoal"
           />
 
