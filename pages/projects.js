@@ -26,7 +26,7 @@ export default function Projects() {
             title="Primeiro Portfólio"
             description="Página criada como projeto final da imersão Alura. Feito com HTML, CSS e JavaScript e depois portado para next.js por curiosidade e para aprender mais sobre o framework e utilizar as otmiizações."
             url="https://portfolio-danieltolentino.vercel.app/"
-            image="/old-portfolio.png"
+            image="/old-portfolio.webp"
             alt="project 1"
           />
 
@@ -34,35 +34,35 @@ export default function Projects() {
             title="Conversor de Moedas"
             description="Converte Dólar, Euro e Bitcoin em Reais. Usa uma API para atualizar a cotação em tempo real."
             url="https://conversor-de-dolar-tolentino.vercel.app/"
-            image="/conversor.png"
+            image="/conversor.webp"
             alt="Conversor de moeda"
           />
           <Card
             title="Site para Barbearia"
             description="Projeto desenvolvido na maratona codar.me. Feito com HTML, CSS e JavaScript."
             url="https://codar-me-maratona-starter-barbearia.vercel.app/"
-            image="/barbearia.png"
+            image="/barbearia.webp"
             alt="Site para Barbearia"
           />
           <Card
             title="Site para PetShop"
             description="Projeto desenvolvido na maratona codar.me. Feito com HTML, CSS e JavaScript."
             url="https://codar-me-maratona-starter-veterinaria.vercel.app/"
-            image="/pet-store.png"
+            image="/pet-store.webp"
             alt="Site para PetShop"
           />
           <Card
             title="MoviesLibrary"
             description="Site para buscar informações de filmes usando a API do The Movie Database. Feito com React. Tutorial do Youtube"
             url="https://movies-library-mocha.vercel.app/"
-            image="/movies.png"
+            image="/movies.webp"
             alt="Site para buscar filmes"
           />
           <Card
             title="CoronaVirus Tracker"
             description="Dashboard criada usando GoogleSites com embbeds de estatísticas do Covid-19 e informações/inforgráficos sobre o vírus."
             url="https://sites.google.com/view/corona-no-brasil/in%C3%ADcio"
-            image="/corona.png"
+            image="/corona.webp"
             alt="CoronaVirus Tracker"
           />
         </div>
