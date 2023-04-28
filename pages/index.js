@@ -22,7 +22,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://danieltolentino.tech/og-image.png"
+          content="https://danieltolentino.tech/og-image.webp"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -35,7 +35,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://danieltolentino.tech/og-image.png"
+          content="https://danieltolentino.tech/og-image.webp"
         />
 
         <meta property="og:image:width" content="1200" />
