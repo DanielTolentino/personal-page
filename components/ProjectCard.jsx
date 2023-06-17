@@ -19,8 +19,7 @@ export default function Card(props) {
                 alt={props.alt}
                 width={100}
                 height={100}
-                quality="100"
-                blurDataURL="data:..."
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNUqAcAAMUAoYuNuE0AAAAASUVORK5CYII="
                 placeholder="blur"
               />
             </div>
