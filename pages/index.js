@@ -1,8 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-import NavBar from "../components/NavBar";
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -51,7 +49,6 @@ export default function Home() {
           className={styles.pfp}
         />
         <div>
-          <NavBar />
           <div>
             <div>
               <h1 className={styles.title}>

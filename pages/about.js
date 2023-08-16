@@ -1,8 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/About.module.css";
 
-import NavBar from "../components/NavBar";
-
 export default function About() {
   return (
     <div className="navbar">
@@ -11,7 +9,6 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <NavBar />
         <div className={styles.container}>
           <div className={styles.description}>
             <h2 className={styles.main_title}>Sobre mim</h2>
