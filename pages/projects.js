@@ -1,6 +1,5 @@
 import Head from "next/head";
 
-import NavBar from "../components/NavBar";
 import Card from "../components/ProjectCard";
 
 export default function Projects() {
@@ -11,7 +10,6 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <NavBar />
         <div id="grid">
           <Card
             title="Hub"
