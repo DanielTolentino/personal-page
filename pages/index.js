@@ -134,7 +134,7 @@ export default function Home() {
               <h2 className={styles.description}>
                 Amo tecnologia, Linux e o mundo Open Source!
                 <br></br>
-                Desenvolvedor Front-End, estudante de Sistemas para Internet e
+                Desenvolvedor Web, estudante de Sistemas para Internet e
                 pai do Luke 🐱
               </h2>
             </div>
