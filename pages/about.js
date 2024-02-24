@@ -13,12 +13,12 @@ export default function About() {
           <div className={styles.description}>
             <h2 className={styles.main_title}>Sobre mim</h2>
             <p>
-              Olá, meu nome é <b>Daniel Tolentino</b>, tenho 25 anos e sou
+              Olá, meu nome é <b>Daniel Tolentino</b>, tenho 26 anos e sou
               estudante de <b>Sistemas para Internet</b> na UNOPAR.
               <br></br>
               Desenvolvo projetos principalmente em <b>Front-end</b> e
               utilizando <b>Next.js</b>. Todos os meus códigos estão disponíveis
-              no GitHub. Também tenho interessente em desenvolvimento back-end.
+              no GitHub. Também tenho interesse em desenvolvimento back-end.
             </p>
             <a
               className={styles.mail}
