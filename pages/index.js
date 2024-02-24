@@ -11,7 +11,7 @@ export default function Home() {
           content="Portfólio de Daniel Tolentino, desenvolvedor web"
         />
 
-        <meta property="og:url" content="https://danieltolentino.tech/" />
+        <meta property="og:url" content="https://danieltolentino.net/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Página Inicial" />
         <meta
@@ -20,12 +20,12 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://danieltolentino.tech/og-image.webp"
+          content="https://danieltolentino.net/og-image.webp"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="danieltolentino.tech" />
-        <meta property="twitter:url" content="https://danieltolentino.tech/" />
+        <meta property="twitter:domain" content="danieltolentino.net" />
+        <meta property="twitter:url" content="https://danieltolentino.net/" />
         <meta name="twitter:title" content="Página Inicial" />
         <meta
           name="twitter:description"
@@ -33,7 +33,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://danieltolentino.tech/og-image.webp"
+          content="https://danieltolentino.net/og-image.webp"
         />
 
         <meta property="og:image:width" content="1200" />

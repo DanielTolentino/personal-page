@@ -22,7 +22,7 @@ export default function About() {
             </p>
             <a
               className={styles.mail}
-              href="mailto:contato@danieltolentino.tech"
+              href="mailto:contato@danieltolentino.net"
             >
               <svg
                 width="24"

@@ -17,7 +17,7 @@ export default function NavBar() {
         </Link>
         <Link
           className={styles.a}
-          href="https://blog.danieltolentino.tech"
+          href="https://blog.danieltolentino.net"
           target={"_blank"}>
           <h5 className={styles.title}>
             Blog{" "}
