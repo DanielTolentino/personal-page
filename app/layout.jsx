@@ -16,9 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <Analytics />
-      <NavBar />
-      {children}
+      <html>
+        <body>
+          <Analytics />
+          <NavBar />
+          {children}
+        </body>
+      </html>
     </>
   );
 }
