@@ -19,10 +19,10 @@ export default function RootLayout({
     <>
       <html>
         <body>
-          <Analytics />
-          <SpeedInsights />
           <NavBar />
           {children}
+          <Analytics />
+          <SpeedInsights />
         </body>
       </html>
     </>
