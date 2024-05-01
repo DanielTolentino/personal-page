@@ -1,7 +1,7 @@
 'use client';
 import styles from "../app/styles/Home.module.css";
 
-export default function Home() {
+function Home() {
   return (
     <div className={styles.container}>
       <main>
@@ -162,3 +162,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home
