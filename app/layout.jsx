@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../app/styles/styles.css";
 import "../app/styles/globals.css";
 import "../app/styles/Home.module.css";
@@ -19,6 +20,7 @@ export default function RootLayout({
       <html>
         <body>
           <Analytics />
+          <SpeedInsights />
           <NavBar />
           {children}
         </body>
