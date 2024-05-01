@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
-import "../styles.css";
-import "../styles/globals.css";
-import "../styles/Home.module.css";
+import "../app/styles/styles.css";
+import "../app/styles/globals.css";
+import "../app/styles/Home.module.css";
 import NavBar from "../components/NavBar";
 
 export const metadata = {
