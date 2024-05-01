@@ -1,10 +1,10 @@
 "use client";
-import styles from '../../styles/About.module.css'
+import styles from '../styles/About.module.css'
 
 export default function About() {
   return (
     <div className="navbar">
-      <main>
+      <main className={styles.main}>
         <div className={styles.container}>
           <div className={styles.description}>
             <h2 className={styles.main_title}>Sobre mim</h2>
@@ -16,6 +16,7 @@ export default function About() {
               utilizando <b>Next.js</b>. Todos os meus códigos estão disponíveis
               no GitHub. Também tenho interesse em desenvolvimento back-end.
             </p>
+            <br></br>
             <a
               className={styles.mail}
               href="mailto:contato@danieltolentino.net"
@@ -42,66 +43,6 @@ export default function About() {
           </div>
         </div>
       </main>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        a {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      }
-      `}</style>
     </div>
   );
 }
