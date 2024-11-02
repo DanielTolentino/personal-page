@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+  <div id="nav">
+    <div id="textrow">
+      <a
+        href="/"
+        className={currentRoute === "/" ? styles.active : styles.a}>
+        <h5 id="title_nav">Home</h5>
+    </a>
+      <a
+        id="a_nav"
+        href="https://blog.danieltolentino.net"
+        target={"_blank"}>
+        <h5 id="title_nav">
+          Blog
+          <span className={styles.svg}>
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+                fill="currentColor"></path>
+            </svg>
+          </span>
+        </h5>
+      </a>
+      <Link
+        className={currentRoute === "/projects" ? styles.active : styles.a}
+        href="/projects">
+        <h5 id="title_nav">Projects</h5>
+      </Link>
+      <a
+        className={currentRoute === "/about" ? styles.active : styles.a}
+        href="/about">
+        <h5 id="title_nav">About</h5>
+      </Link>
+    </div>
+  </div>
+
+  <main id="main_about">
+    <div id="container_about">
+      <div id="description_about">
+        <h2 id="main_title_about">Sobre mim</h2>
+        <p>
+          Olá, meu nome é <b>Daniel Tolentino</b>, tenho 26 anos e sou
+          estudante de <b>Sistemas para Internet</b> na UNOPAR.
+          <br></br>
+          Desenvolvo projetos principalmente em <b>Front-end</b> e
+          utilizando <b>Next.js</b>. Todos os meus códigos estão disponíveis
+          no GitHub. Também tenho interesse em desenvolvimento back-end.
+        </p>
+        <br></br>
+        <a
+          id="mail_about"
+          href="mailto:contato@danieltolentino.net"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 15.5c0-.563.186-1.082.5-1.5H5.252a2.249 2.249 0 0 0-2.249 2.25v.919c0 .572.179 1.13.51 1.596C5.057 20.929 7.58 22 11 22h.05a2.514 2.514 0 0 1-.05-.5v-6ZM11 2.005a5 5 0 1 1 0 10 5 5 0 0 1 0-10ZM17.51 18.927l-5.491-3.203A2 2 0 0 1 14 14h7a2 2 0 0 1 2 1.97l-5.49 2.957Z"
+              fill="#212121"
+            />
+            <path
+              d="M17.737 19.94 23 17.108V21a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2v-4.13l5.248 3.062a.5.5 0 0 0 .489.009Z"
+              fill="#212121"
+            />
+          </svg>
+
+          <span id="main_title">Entre em contato!</span>
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
