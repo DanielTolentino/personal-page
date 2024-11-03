@@ -335,36 +335,30 @@ button {
 }
 
 @media (prefers-color-scheme: dark) {
-  .card,
-  .svg_icon {
-    filter: invert(100%);
-  }
-  .img,
-  .icons,
-  .emoji {
-    filter: invert(100%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body,
-  h1 {
+  body {
     color: #fff;
     background-color: #333;
   }
-  .svg_icon,
-      .Home_link__mt0ji,
-      .icons,
-      .mr-2,
+
+  h3 {
+    color: #333;
+  }
+
+  .card,
       iframe /* for recaptcha */ {
+    filter: invert(100%) !important;
+  }
+  .img_container {
     filter: invert(100%) !important;
   }
   .Home_link_card__FkpPR:hover {
     filter: invert(100%) !important;
   }
 
-  .About_description__5NvTY,
-  .About_contact__m4JAX {
+  #main_about,
+  #title_nav,
+  #container_about,
+  #description_about {
     filter: invert(100%) !important;
     color: #161515;
   }
@@ -372,7 +366,8 @@ button {
 
 @media (prefers-color-scheme: dark) {
   .main,
-  .textrow,
+  #nav,
+  #textrow,
   .link,
   .a,
   .link:visited {
@@ -531,16 +526,4 @@ button {
   align-items: center;
   padding: 10px;
   gap: 25px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .svg_icon {
-    filter: invert(100%);
-  }
-  .img,
-  .icons,
-  .emoji {
-    filter: invert(100%);
-  }
 }
