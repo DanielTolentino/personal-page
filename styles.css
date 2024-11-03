@@ -351,9 +351,6 @@ button {
   .img_container {
     filter: invert(100%) !important;
   }
-  .Home_link_card__FkpPR:hover {
-    filter: invert(100%) !important;
-  }
 
   #main_about,
   #title_nav,
@@ -362,9 +359,7 @@ button {
     filter: invert(100%) !important;
     color: #161515;
   }
-}
 
-@media (prefers-color-scheme: dark) {
   .main,
   #nav,
   #textrow,
