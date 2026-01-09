@@ -9,14 +9,16 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
   <body>
-    <!-- FIX ME: https://dequeuniversity.com/rules/axe/4.9/landmark-one-main?application=Vercel%20Toolbar -->
+    <a href="#main-content" class="skip-to-content">
+      Pular para o conteúdo principal
+    </a>
 
-    <div role="navigation" id="nav">
+    <nav id="nav" aria-label="Navegação principal">
       <div id="textrow">
         <a href="/">
           <h5 id="title_nav">Home</h5>
         </a>
-        <a id="a_nav" href="https://blog.danieltolentino.net" target="_blank">
+        <a id="a_nav" href="https://blog.danieltolentino.net" target="_blank" rel="noopener noreferrer" aria-label="Visitar blog (abre em nova aba)">
           <h5 id="title_nav">
             Blog
             <span class="svg_icon">
@@ -26,6 +28,7 @@
                 viewBox="0 0 12 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <path
                   d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
@@ -43,22 +46,28 @@
           <h5 id="title_nav">Sobre</h5>
         </a>
       </div>
-    </div>
+    </nav>
 
-    <img src="/public/foto_de_perfil.webp" alt="profile pic" class="pfp" />
-    <div role="main">
+    <main id="main-content">
+      <img 
+        src="/public/foto_de_perfil.webp" 
+        alt="Foto de perfil de Daniel Tolentino" 
+        class="pfp animate-fade-in animate-delay-1"
+        loading="eager"
+      />
       <div>
         <div>
-          <h1 class="title">
-            Olá <span className="emoji"> 👋 </span>, meu nome é Daniel Tolentino
+          <h1 class="title animate-fade-in animate-delay-2">
+            Olá <span class="emoji"> 👋 </span>, meu nome é Daniel Tolentino
           </h1>
           <br />
-          <div class="links_row">
+          <div class="links_row animate-fade-in animate-delay-3">
             <a
               class="link_card"
               href="https://github.com/DanielTolentino"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visitar perfil do GitHub (abre em nova aba)"
             >
               <svg
                 width="20"
@@ -66,6 +75,7 @@
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <g clipPath="url(#clip0_9914_10)">
                   <path
@@ -87,6 +97,7 @@
                   viewBox="0 0 12 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
                 >
                   <path
                     d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
@@ -101,12 +112,14 @@
               href="https://www.linkedin.com/in/daniel-tolentino-ferreira-santos/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visitar perfil do LinkedIn (abre em nova aba)"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 30 30"
                 width="20px"
                 height="20px"
+                aria-hidden="true"
               >
                 <path
                   d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M10.496,8.403 c0.842,0,1.403,0.561,1.403,1.309c0,0.748-0.561,1.309-1.496,1.309C9.561,11.022,9,10.46,9,9.712C9,8.964,9.561,8.403,10.496,8.403z M12,20H9v-8h3V20z M22,20h-2.824v-4.372c0-1.209-0.753-1.488-1.035-1.488s-1.224,0.186-1.224,1.488c0,0.186,0,4.372,0,4.372H14v-8 h2.918v1.116C17.294,12.465,18.047,12,19.459,12C20.871,12,22,13.116,22,15.628V20z"
@@ -126,6 +139,7 @@
                   viewBox="0 0 12 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
                 >
                   <path
                     d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
@@ -135,7 +149,7 @@
               </span>
             </a>
           </div>
-          <h2 class="description">
+          <h2 class="description animate-fade-in animate-delay-4">
             Amo tecnologia, Linux e o mundo Open Source!
             <br />
             Desenvolvedor Web, estudante de Sistemas para Internet e pai do Luke
@@ -143,6 +157,6 @@
           </h2>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>

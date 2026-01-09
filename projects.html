@@ -9,21 +9,26 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
   <body>
-    <div role="navigation" id="nav">
+    <a href="#main_projects" class="skip-to-content">
+      Pular para o conteúdo principal
+    </a>
+
+    <nav id="nav" aria-label="Navegação principal">
       <div id="textrow">
         <a href="/">
           <h5 id="title_nav">Home</h5>
         </a>
-        <a id="a_nav" href="https://blog.danieltolentino.net" target="_blank">
+        <a id="a_nav" href="https://blog.danieltolentino.net" target="_blank" rel="noopener noreferrer" aria-label="Visitar blog (abre em nova aba)">
           <h5 id="title_nav">
             Blog
-            <span className="{styles.svg}">
+            <span class="svg_icon">
               <svg
                 width="12"
                 height="12"
                 viewBox="0 0 12 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <path
                   d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
@@ -41,14 +46,14 @@
           <h5 id="title_nav">Sobre</h5>
         </a>
       </div>
-    </div>
+    </nav>
 
     <main id="main_projects">
       <div id="grid">
         <div class="cards">
           <div class="card-container">
-            <a clas="link" href="https://github.com/DanielTolentino/Hub">
-              <div class="card">
+            <a class="link" href="https://github.com/DanielTolentino/Hub">
+              <div class="card animate-fade-in animate-delay-1">
                 <h3 class="h3">Hub</h3>
                 <p class="p">
                   Hub com links para meus projetos, acesso rápido à ferramentas
@@ -56,7 +61,12 @@
                   TailwindCSS.
                 </p>
                 <div class="img_container">
-                  <image src="/public/hub.webp" alt="hub" class="img" />
+                  <img 
+                    src="/public/hub.webp" 
+                    alt="Captura de tela do projeto Hub mostrando links para projetos" 
+                    class="img"
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </a>
@@ -65,8 +75,8 @@
 
         <div class="cards">
           <div class="card-container">
-            <a clas="link" href="https://portfolio-danieltolentino.vercel.app/">
-              <div class="card">
+            <a class="link" href="https://portfolio-danieltolentino.vercel.app/">
+              <div class="card animate-fade-in animate-delay-2">
                 <h3 class="h3">Primeiro Portfólio</h3>
                 <p class="p">
                   Página criada como projeto final da imersão Alura. Feito com
@@ -75,10 +85,11 @@
                   as otmiizações.
                 </p>
                 <div class="img_container">
-                  <image
+                  <img
                     src="/public/old-portfolio.webp"
-                    alt="portfolio"
+                    alt="Captura de tela do primeiro portfólio"
                     class="img"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -89,20 +100,21 @@
         <div class="cards">
           <div class="card-container">
             <a
-              clas="link"
+              class="link"
               href="https://conversor-de-dolar-tolentino.vercel.app/"
             >
-              <div class="card">
+              <div class="card animate-fade-in animate-delay-3">
                 <h3 class="h3">Conversor de Moedas</h3>
                 <p class="p">
                   Converte Dólar, Euro e Bitcoin em Reais. Usa uma API para
                   atualizar a cotação em tempo real.
                 </p>
                 <div class="img_container">
-                  <image
+                  <img
                     src="/public/conversor.webp"
-                    alt="foto do conversor de moedas"
+                    alt="Interface do conversor de moedas"
                     class="img"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -113,20 +125,21 @@
         <div class="cards">
           <div class="card-container">
             <a
-              clas="link"
+              class="link"
               href="https://codar-me-maratona-starter-barbearia.vercel.app/"
             >
-              <div class="card">
+              <div class="card animate-fade-in animate-delay-4">
                 <h3 class="h3">Site para Barbearia</h3>
                 <p class="p">
                   Projeto desenvolvido na maratona codar.me. Feito com HTML, CSS
                   e JavaScript.
                 </p>
                 <div class="img_container">
-                  <image
+                  <img
                     src="/public/barbearia.webp"
-                    alt="site para barbearia"
+                    alt="Página inicial do site de barbearia"
                     class="img"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -137,20 +150,21 @@
         <div class="cards">
           <div class="card-container">
             <a
-              clas="link"
+              class="link"
               href="https://codar-me-maratona-starter-veterinaria.vercel.app/"
             >
-              <div class="card">
+              <div class="card animate-fade-in animate-delay-5">
                 <h3 class="h3">Site para PetShop</h3>
                 <p class="p">
                   Projeto desenvolvido na maratona codar.me. Feito com HTML, CSS
                   e JavaScript.
                 </p>
                 <div class="img_container">
-                  <image
+                  <img
                     src="/public/pet-store.webp"
-                    alt="site para petshop"
+                    alt="Página inicial do site de pet shop"
                     class="img"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -160,18 +174,19 @@
 
         <div class="cards">
           <div class="card-container">
-            <a clas="link" href="https://movies-library-mocha.vercel.app/">
-              <div class="card">
+            <a class="link" href="https://movies-library-mocha.vercel.app/">
+              <div class="card animate-fade-in animate-delay-6">
                 <h3 class="h3">MoviesLibrary</h3>
                 <p class="p">
                   Site para buscar informações de filmes usando a API do The
                   Movie Database. Feito com React. Tutorial do Youtube
                 </p>
                 <div class="img_container">
-                  <image
+                  <img
                     src="/public/movies.webp"
-                    alt="Site para buscar filmes"
+                    alt="Interface da Movies Library para buscar filmes"
                     class="img"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -182,10 +197,10 @@
         <div class="cards">
           <div class="card-container">
             <a
-              clas="link"
+              class="link"
               href="https://sites.google.com/view/corona-no-brasil/in%C3%ADcio"
             >
-              <div class="card">
+              <div class="card animate-fade-in animate-delay-7">
                 <h3 class="h3">CoronaVirus Tracker</h3>
                 <p class="p">
                   Dashboard criada usando GoogleSites com embbeds de
@@ -193,10 +208,11 @@
                   vírus.
                 </p>
                 <div class="img_container">
-                  <image
+                  <img
                     src="/public/corona.webp"
-                    alt="Dashboard com informações sobre corona vírus"
+                    alt="Dashboard do Coronavirus Tracker com estatísticas"
                     class="img"
+                    loading="lazy"
                   />
                 </div>
               </div>

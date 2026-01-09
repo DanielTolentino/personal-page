@@ -9,21 +9,26 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   </head>
   <body>
-    <div role="navigation" id="nav">
+    <a href="#main_about" class="skip-to-content">
+      Pular para o conteúdo principal
+    </a>
+
+    <nav id="nav" aria-label="Navegação principal">
       <div id="textrow">
         <a href="/">
           <h5 id="title_nav">Home</h5>
         </a>
-        <a id="a_nav" href="https://blog.danieltolentino.net" target="_blank">
+        <a id="a_nav" href="https://blog.danieltolentino.net" target="_blank" rel="noopener noreferrer" aria-label="Visitar blog (abre em nova aba)">
           <h5 id="title_nav">
             Blog
-            <span className="{styles.svg}">
+            <span class="svg_icon">
               <svg
                 width="12"
                 height="12"
                 viewBox="0 0 12 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <path
                   d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
@@ -41,11 +46,11 @@
           <h5 id="title_nav">Sobre</h5>
         </a>
       </div>
-    </div>
+    </nav>
 
     <main id="main_about">
-      <div id="container_about">
-        <div id="description_about">
+      <div id="container_about" class="animate-fade-in animate-delay-1">
+        <div id="description_about" class="animate-fade-in animate-delay-2">
           <h2 id="main_title_about">Sobre mim</h2>
           <br />
           <p>
@@ -60,13 +65,18 @@
             Também tenho interesse em desenvolvimento back-end.
           </p>
           <br />
-          <a id="mail_about" href="mailto:contato@danieltolentino.net">
+          <a 
+            id="mail_about" 
+            href="mailto:contato@danieltolentino.net"
+            aria-label="Enviar email para contato@danieltolentino.net"
+          >
             <svg
               width="24"
               height="24"
               fill="none"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <path
                 d="M11 15.5c0-.563.186-1.082.5-1.5H5.252a2.249 2.249 0 0 0-2.249 2.25v.919c0 .572.179 1.13.51 1.596C5.057 20.929 7.58 22 11 22h.05a2.514 2.514 0 0 1-.05-.5v-6ZM11 2.005a5 5 0 1 1 0 10 5 5 0 0 1 0-10ZM17.51 18.927l-5.491-3.203A2 2 0 0 1 14 14h7a2 2 0 0 1 2 1.97l-5.49 2.957Z"
@@ -78,7 +88,7 @@
               />
             </svg>
 
-            <span id="main_title">Entre em contato!</span>
+            <span>Entre em contato!</span>
           </a>
         </div>
       </div>
